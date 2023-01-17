@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(224, 103, 11);
+    font-family: 'Concert One', cursive;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.info{
+    background-color: rgb(70, 69, 69);
+    border-radius: 10px;
+}
+
+.section1{
+    border-radius: 10px;
+}
+.itemSection>p{
+    font-size: 2.7vh;
+    font-weight: 300;
+}
+
+.itemSection>h3{
+    text-decoration: underline;
+    color: #86847d;
+    text-shadow: 1px 1px .5em #000000;
+}
+
+
+.data{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+}
+.data>h1{
+    color: #daa520;
+    text-shadow:0 0 0.1em red,0 0 .125em rgb(151, 47, 47);
+    
+    
+}
+svg{
+    color: goldenrod;
+    filter: drop-shadow(5px 5px 0px rgb(109,8,8));
+}
+.contactame{
+    text-decoration: underline;
+    
+}
+a:hover , a:visited , a:active , a:link, .contactame{
+    color: white;
+}
+.contactame{
+    color: #daa520;
+    text-shadow:0 0 0.09em red,0 0 .5em rgb(109, 8, 8);
+
+}
+.data>h2{
+    color: rgb(105, 103, 103);
+    font-stretch: semi-expanded;
+    text-shadow:0 0 0.09em rgb(18, 17, 17),0 0 .5em rgb(161, 39, 39);
+    font-weight: 400;
+}
+
+.display-4{
+    color: rgb(176, 12, 12);
+    font-stretch: semi-expanded;
+    text-shadow:0 0 0.09em rgb(18, 17, 17),0 0 .5em rgb(161, 39, 39);
+    font-weight: 400;
+}
+
+img{
+    border-radius: 30px;
+    border-color:  solid red 10px;
+    box-shadow: 0px 0px 15px #daa520;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
