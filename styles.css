@@ -3,6 +3,7 @@ body{
     font-family: 'Concert One', cursive;
 }
 
+
 a{
     text-decoration: none;
     color: white;
@@ -48,6 +49,18 @@ svg{
 a:hover , a:visited , a:active , a:link, .contactame{
     color: white;
 }
+ul{
+    list-style-type: '👉🏼';
+    list-style-position: center;
+    text-align: center;
+}
+.lista{
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .contactame{
     color: #daa520;
     text-shadow:0 0 0.09em red,0 0 .5em rgb(109, 8, 8);
@@ -67,7 +80,7 @@ a:hover , a:visited , a:active , a:link, .contactame{
     font-weight: 400;
 }
 
-img{
+.fotoCV{
     border-radius: 30px;
     border-color:  solid red 10px;
     box-shadow: 0px 0px 15px #daa520;
@@ -78,4 +91,10 @@ img{
 .tituloSection{
     border-radius: 10px;
     padding: 20px !important; 
+}
+
+.fondoPagina{
+    background-color: rgb(105, 103, 103);
+    margin-top: 1.5em;
+    border-radius: 10px;
 }
