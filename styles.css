@@ -2,7 +2,17 @@ body{
     background-color: rgb(224, 103, 11);
     font-family: 'Concert One', cursive;
 }
-
+.dolarOficial{
+    width: 7rem;
+    color: rgb(0, 0, 0);
+    
+}
+.textoTituloApi{
+    color: rgb(255, 255, 255);
+    font-stretch: semi-expanded;
+    text-shadow: 0 0 0.09em rgb(18, 17, 17),0 0 .5em rgb(161, 39, 39);
+    font-weight: 400;
+}
 
 a{
     text-decoration: none;
@@ -95,6 +105,8 @@ ul{
 
 .fondoPagina{
     background-color: rgb(105, 103, 103);
+    /* background-color: rgb(224, 103, 11); */
+
     margin-top: 1.5em;
     border-radius: 10px;
 }
